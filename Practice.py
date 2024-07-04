@@ -518,3 +518,13 @@ dict={
 }
 }
 print(dict)
+print(len(dict))
+
+thisdict1={
+    "name":"Nagalakshmi",
+    "age":"30",
+    "B.tech":False,
+    "year":1992,
+    "city":"Yandagandi"
+}
+print(thisdict1)
