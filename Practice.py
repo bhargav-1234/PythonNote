@@ -544,3 +544,5 @@ thisdict1["year"]=2024
 print(thisdict1)
 thisdict1["college"]="AdudiSankara"
 print(thisdict1)
+z =thisdict1.items()
+print(z)
