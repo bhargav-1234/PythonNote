@@ -536,3 +536,11 @@ print(y)
 ## getting keys ##
 z = thisdict1.keys()
 print(z)
+thisdict1["Branch"]="EEE"
+print(z)
+z = thisdict1.values()
+print(z)
+thisdict1["year"]=2024
+print(thisdict1)
+thisdict1["college"]="AdudiSankara"
+print(thisdict1)
