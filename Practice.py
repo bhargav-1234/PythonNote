@@ -528,3 +528,11 @@ thisdict1={
     "city":"Yandagandi"
 }
 print(thisdict1)
+### Accessing items ###
+x = thisdict1["year"]
+print(x)
+y= thisdict1.get("city")
+print(y)
+## getting keys ##
+z = thisdict1.keys()
+print(z)
