@@ -1,3 +1,4 @@
+import pdb
 """import sys
 
 print("Hello Bhargav")
@@ -543,6 +544,18 @@ print(z)
 thisdict1["year"]=2024
 print(thisdict1)
 thisdict1["college"]="AdudiSankara"
+#pdb.set_trace()
 print(thisdict1)
 z =thisdict1.items()
+pdb.set_trace()
 print(z)
+thisdict1["lastname"]="Nageti"  ### to add an item 
+print(thisdict1)
+thisdict1.update({"name":"Bhargav"})
+print(thisdict1)
+thisdict1.pop("city") ## it removes perticular item
+print(thisdict1)
+thisdict1.update({"B.tech": True})
+print(thisdict1)
+thisdict1.popitem() ## it removes only last item 
+print(thisdict1)
