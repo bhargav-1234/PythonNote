@@ -543,11 +543,11 @@ z = thisdict1.values()
 print(z)
 thisdict1["year"]=2024
 print(thisdict1)
-thisdict1["college"]="AdudiSankara"
+thisdict1["college"]="AudiSankara"
 #pdb.set_trace()
 print(thisdict1)
 z =thisdict1.items()
-pdb.set_trace()
+#pdb.set_trace()
 print(z)
 thisdict1["lastname"]="Nageti"  ### to add an item 
 print(thisdict1)
@@ -559,3 +559,60 @@ thisdict1.update({"B.tech": True})
 print(thisdict1)
 thisdict1.popitem() ## it removes only last item 
 print(thisdict1)
+## ----Loop Dictionaries---- ##
+for a in thisdict1:
+    print(thisdict1[a])
+for a in thisdict1.values(): # it print's only values
+    print(a)
+for a in thisdict1.keys(): # it print's only keys
+    print(a)
+for a, b in thisdict1.items(): # it print's both values and keys
+    print(a,b)
+#### ----Copy a Ditionary---- ####
+mydict = thisdict1.copy()
+print(mydict)
+
+## there is also built-in fuction to copy  dictionary##
+# mydict= dict(thisdict1)
+# print(mydict)
+
+## ------Nested Dictionaries------- ##
+dict1={
+    "child1":{
+        "name":"bhargav",
+        "age":25
+    },
+    "child2":{
+        "name":"Honey",
+        "age":18
+    },
+    "child3":{
+         "name":"muni",
+         "age":33
+    }
+}
+print(dict1)
+
+child1={
+  "name":"Bhagi",
+  "Age":25
+},
+child2={
+    "name":"harika",
+    "Age":18
+},
+child3={
+    "name":"Aruna",
+    "Age":35
+}
+myFamily={
+    "child1":child1,
+    "child2":child2,
+    "child":child3
+}
+print(myFamily)
+
+## ----Access items in nested Dictionaries---- ##
+print(dict1["child1"]["name"])
+# print(myFamily["child2"]["name"])
+print(dict1["child2"]["name"])
