@@ -623,7 +623,7 @@ y=0
 dict2=dict.fromkeys(x, y)
 print(dict2)
 
-#### -------- Python if .... else -------- ####
+#### -------- Python if.... else -------- ####
 
 a= 10
 b=5
