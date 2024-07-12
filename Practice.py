@@ -616,3 +616,94 @@ print(myFamily)
 print(dict1["child1"]["name"])
 # print(myFamily["child2"]["name"])
 print(dict1["child2"]["name"])
+
+## -- Formkeys method -- ##
+x = ('key1','key2','key3')
+y=0
+dict2=dict.fromkeys(x, y)
+print(dict2)
+
+#### -------- Python if .... else -------- ####
+
+a= 10
+b=5
+if a>b:
+    print("Yes")
+else:
+    print("no")
+
+a= 33
+b= 200
+
+if b > a:
+    print('yes, b is greater than a')
+
+else:
+    print('no')
+
+## --- elif --- ##
+a=10
+b=20
+if a>b:
+    print("yes")
+elif a<b:
+    print('yes, a is less than b')
+
+a=5
+b=5
+if a<b:
+    print("a is less than b")
+elif a>b:
+    print('a is greater than b')
+elif a==b:
+    print('a is equlal to b')
+
+a=5
+b=7
+if a>b:
+    print('a is greater than b')
+elif a==b:
+    print('a and b are both equals')
+else:
+    print('No,both conditions are false')
+
+## -- Short hand if -- ##
+a=4
+b=5
+if b>a:print("b is greater than a ")
+
+## -- Short hand if...else -- ##
+a=2
+b=1
+print("a")if a>b else print("b")
+
+## --- Operators combine in statements --- ###
+a=10
+b=25
+c=50
+if a>b and a<c:
+    print("hello world")
+
+if a>b or a<c:
+    print("Hello world")
+
+a = 33
+b = 200
+if not a > b:
+  print("a is NOT greater than b")
+
+
+a=100
+
+if a>25 :
+    print("Yes, a is greater than 25")
+    if a<42:
+        print('Yes, a is less than 42')
+    else:
+      print('No, a is greater than 42')
+
+## -- pass statement --##
+a=5
+b=10
+if a<b:
+    pass  # To avoid getting errors from empty condition we use 'pass'
