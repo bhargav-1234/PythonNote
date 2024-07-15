@@ -707,3 +707,5 @@ a=5
 b=10
 if a<b:
     pass  # To avoid getting errors from empty condition we use 'pass'
+
+##### -------- Python While Loops -------- #####
