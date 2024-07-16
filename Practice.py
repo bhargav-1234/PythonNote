@@ -709,3 +709,8 @@ if a<b:
     pass  # To avoid getting errors from empty condition we use 'pass'
 
 ##### -------- Python While Loops -------- #####
+
+i=3
+while i!=0:
+    print("Melow")
+    i=i-1
