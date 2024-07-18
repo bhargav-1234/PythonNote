@@ -733,7 +733,13 @@ while i<6:
 ## -- Continue Statement -- ##
 i=0
 while i<6:
-    i += 1
+    i += 1  # Reme  
     if i==3:
         continue
     print(i)
+## -- else Satetment -- ##
+i= 1
+while i>6:
+    print(i)
+else:
+    print("i value is not greater than 6")
