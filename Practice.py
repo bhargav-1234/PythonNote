@@ -714,3 +714,26 @@ i=3
 while i!=0:
     print("Melow")
     i=i-1
+
+for i in range(5):
+    print("Honey")
+
+i=1
+while i<6:
+    print(i)
+    i+=1
+    # i = i+1
+## -- Break Statement -- ##
+i=1
+while i<6:
+    print(i)
+    if i==3:
+      break
+    i+=1
+## -- Continue Statement -- ##
+i=0
+while i<6:
+    i += 1
+    if i==3:
+        continue
+    print(i)
