@@ -718,6 +718,9 @@ while i!=0:
 for i in range(5):
     print("Honey")
 
+for i in [1,2,3,4]:
+    print('honey')
+
 i=1
 while i<6:
     print(i)
@@ -733,7 +736,7 @@ while i<6:
 ## -- Continue Statement -- ##
 i=0
 while i<6:
-    i += 1  # Reme  
+    i += 1  # Remmeber to increment while using while loop or else the loop will continue forever.  
     if i==3:
         continue
     print(i)
@@ -743,3 +746,18 @@ while i>6:
     print(i)
 else:
     print("i value is not greater than 6")
+
+####### ----------- Python For Loops ------------ #######
+'''for loop is used to iterating over a sequence like list, tuple, dictionary, sets etc.'''
+
+things =['laptop','pen','mobile']
+for x in things:
+    print(x)
+# ---------------- #
+    if x =="pen":
+        break
+    print(x)
+# ---------------- #
+
+
+
