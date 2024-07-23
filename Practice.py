@@ -702,7 +702,7 @@ if a>25 :
     else:
       print('No, a is greater than 42')
 
-## -- pass statement --##
+## -- pass statement -- ##
 a=5
 b=10
 if a<b:
@@ -720,6 +720,10 @@ for i in range(5):
 
 for i in [1,2,3,4]:
     print('honey')
+    
+student=["bhargav","honey","muni"]
+for i in range(len(student)):
+    print(student[i])
 
 i=1
 while i<6:
@@ -758,6 +762,7 @@ for x in things:
         break
     print(x)
 # ---------------- #
+
 
 
 

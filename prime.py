@@ -35,7 +35,7 @@ def is_prime(num):
     return True
 
 # Print prime numbers up to a given limit
-limit = int(input("Enter limit: "))
-for num in range(2, limit+1):
+# limit = int(input("Enter limit: "))
+for num in range(2, 10):
     if is_prime(num):
         print(num)
