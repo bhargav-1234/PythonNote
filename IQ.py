@@ -90,6 +90,7 @@ def bubble_sort(list):
 print(bubble_sort([64,34,12,22,11,90])) # output : [11, 12, 22, 34, 64, 90]
 
 # Q: caluculate the area of a circle ?
+
 import math
 def  area_of_circle(radius):
     return math.pi * (radius ** 2)
@@ -107,6 +108,21 @@ for i in word:
 # Pyth
 # Pytho
 # Python
+
+# -------------------------- #
+# Q : find the most frequent element in the list [1,2,2,3,3,3,4] ?
+from collections import Counter
+
+def most_frequent(lst):
+    count = Counter(lst)
+    return count.most_common(1)[0][0]
+print(most_frequent([1,2,2,3,3,3,4]))  #output : 3
+#-------------------------#
+a = 5
+b = (a == 2)
+print(b+3)  # 3
+
+
 
 
 
