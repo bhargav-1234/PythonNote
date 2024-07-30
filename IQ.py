@@ -121,6 +121,98 @@ print(most_frequent([1,2,2,3,3,3,4]))  #output : 3
 a = 5
 b = (a == 2)
 print(b+3)  # 3
+# ------------------ #
+lst = [10,15,5,12]
+lst1=0
+for i in lst:
+    if i>lst1:
+        lst1=i
+print(lst1)  # 5
+
+# ------------------------- #
+ # comparsion operator is also called rational operator
+
+# --------------------------- #
+a = 1
+for i in range(2,6):
+    for j in range(2,6):
+        if i%j == 0:
+            a=a+1
+print(a)   # output:6
+
+# -------------------------- #
+
+# Q: what will be the output of the following code ?
+x ="5"
+y=2
+result=int(x) * y
+print(result)  # 10
+# -------------------------- #
+sets={1,2,3}
+sets.update([4,5,6])
+print(sets) # {1, 2, 3, 4, 5, 6}
+
+# --------------------------- #
+a,b,c =5,6,0
+c -= (-a+b)*(-a-b)
+print(c)    # 11    
+# --------------------------- #
+a ={1,1,1,1,2,2,6,6,6,6}
+b =list(a)
+print(b[2]) # 6 (sets doesn't allows the duplicate values)
+# --------------------------- #
+x=y=[3]
+x =x+y
+print(x,y) # [3, 3] [3]
+
+# --------------------------- #
+#1.Using ASCII values to print "Hello World"
+hello = chr(72) + chr(101) + chr(108) + chr(108) + chr(111)
+world = chr(87) + chr(111) + chr(114) + chr(108) + chr(100)
+print(hello + " " + world)
+
+#2.
+# Use join with map to construct and print the string
+print(' '.join(map(chr, [72, 101, 108, 108, 111])) + ' ' + ' '.join(map(chr, [87, 111, 114, 108, 100])))
+
+#3.
+# Use format strings with ASCII values
+hello = ''.join(chr(c) for c in [72, 101, 108, 108, 111])
+world = ''.join(chr(c) for c in [87, 111, 114, 108, 100])
+
+print(f"{hello} {world}")
+
+# ------------- #
+a=[1,6,8]
+b=[2,3]
+c=a.append(b)
+print(a)  #[1,6,8,[2,3]]
+print(a[-1]) # [2,3]
+
+# ------------------------- #
+def fun(x):
+    return x+1
+print(fun(2)*fun(3))  # 12
+
+# ------------------------- #
+a=[11,12,13,14,15]
+b= int(len(a)//2)
+print(a[b]) # 13
+
+# ------------------------ #
+a=[1,2,3,4,5,6]
+for a[-1] in a:
+    print(a[-1]) 
+print(8/4+2) # 4.0
+
+# Q. what will be the output of the followwing code ?
+x={1,2,3}
+y={3,4,5}
+print(x & y)  # {3}
+
+
+
+
 
 
 
