@@ -52,3 +52,4 @@ def prime(num):
 for num in range(2,10):
     if prime(num):
         print(num)
+        
