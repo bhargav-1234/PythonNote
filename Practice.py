@@ -767,13 +767,13 @@ for x in things:
 
         
 def prime(num):
-    if num<=1:
+    if num<1:
         return False
-    for i in range (2,int(num**0.5)+1):
-        if num%i==0:
+    for i in range(2,int(num**0.5)+1):
+        if num%i ==0:
             return False
     return True
-for num in range(2,10):
+for num in range(2,20):
     if prime(num):
         print(num)
 
