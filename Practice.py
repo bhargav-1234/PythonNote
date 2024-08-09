@@ -765,6 +765,9 @@ for x in things:
 
 ## ------------- Python Functions -------------- ##
 
+# Function is a block of code which only runs when it is called.
+# you can pass data, known as parameters , into a function.
+# A function can data as a result. 
         
 def prime(num):
     if num<1:
@@ -773,9 +776,46 @@ def prime(num):
         if num%i ==0:
             return False
     return True
-for num in range(2,20):
+for num in range(2,10):
     if prime(num):
         print(num)
 
+def my_func():
+    print("Hello Honey")
+
+my_func() 
+
+def my(name):  # here 'my' is a parameter and 'name' is an argument it's used to pass the information.
+    print(name + ", " +"welcome our tech world")
+
+my("Bhargav")
+
+# Note: Arguments are often shortened to args in Python documentations.
+
+def args(fname, lname):
+    print(fname +' '+ lname)
+
+args("Bhargav","Nageti")
+
+ # -- Arbitrary Arguments, *args -- #
+
+def my_function(*kids):
+  print("The youngest child is " + kids[1])
+
+my_function("Emil", "Tobias", "Linus")
+
+# -- Keyword Arguments -- #
+# You can also send arguments with the key = value syntax.
+
+def my_function(child3, child2, child1):
+  print("The Eldest child is " + child1)
+
+my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
+
+# -- Arbitrary Keyworrd Arguments, **kwargs -- #
+def my_function(**kid):
+  print("His last name is " + kid["lname"])
+
+my_function(fname = "Tobias", lname = "Refsnes")
 
 
