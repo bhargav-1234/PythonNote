@@ -86,3 +86,24 @@ x, y, z = fruits
 print(x)
 print(y)
 print(z)
+
+# Output Variables:
+'''The Python print() function is often used to output variables.'''
+ #example:
+x = "Python is awesome"
+print(x)
+    
+#In the print() function, you output multiple variables, separated by a comma:
+
+ #Example:
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
+# You can also use the + operator to output multiple variables:
+ #example:
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
