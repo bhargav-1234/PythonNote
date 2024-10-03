@@ -234,5 +234,16 @@ but Python has a built-in module called random that can be used to make random n
 
 #example:
 import random
+import pdb
 
 print(random.randrange(1, 10))
+# pdb.set_trace()
+x = 2 + 3 * 4 - 15 / 2 ** 3
+
+print(x)
+name= "Bhargav"
+print(name[1:4])
+print(name[::2])
+print(name[::-1])
+# pdb.set_trace()
+print(name[5:1:-2])
