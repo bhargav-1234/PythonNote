@@ -67,3 +67,6 @@ which can be used to determine if an object is of a certain data type:"""
 x = 100
 print(isinstance(x, int))
 
+t1=(1,2,4,3)
+t2=(1,2,3,4)
+print(t1 < t2)
