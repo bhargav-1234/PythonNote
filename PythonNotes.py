@@ -247,3 +247,15 @@ print(name[::2])
 print(name[::-1])
 # pdb.set_trace()
 print(name[5:1:-2])
+
+############### Python Strings ################
+name ="Bhargav"
+age =20
+greetings =f"hi My name is {name} and iam {age} years old"
+print(greetings)
+
+Name ="Honey"
+city ="naidupet"
+intro="Hi there my name is {} and i am from {}".format(Name, city)
+print(intro)
+
