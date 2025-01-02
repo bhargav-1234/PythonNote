@@ -219,9 +219,13 @@ b = int(y)
 #convert from int to complex:
 c = complex(x)
 
+# convert from float to complex:
+d=complex(y)
+
 print(a)
 print(b)
 print(c)
+print(d)
 
 print(type(a))
 print(type(b))
@@ -248,14 +252,15 @@ print(name[::-1])
 # pdb.set_trace()
 print(name[5:1:-2])
 
-############### Python Strings ################
-name ="Bhargav"
-age =20
-greetings =f"hi My name is {name} and iam {age} years old"
-print(greetings)
+# ############### Python Strings ################
+# name ="Bhargav"
+# age =20
+# greetings =f"hi My name is {name} and iam {age} years old"
+# print(greetings)
 
-Name ="Honey"
-city ="naidupet"
-intro="Hi there my name is {} and i am from {}".format(Name, city)
-print(intro)
+# Name ="Honey"
+# city ="naidupet"
+# intro="Hi there my name is {} and i am from {}".format(Name, city)
+# print(intro)
+
 
