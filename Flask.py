@@ -15,3 +15,12 @@
     What is WSGI?
     It is an acronym for web server gateway interface which is a standard for python web application development. 
     It is considered as the specification for the universal interface between the web server and web application.'''
+from flask import Flask
+
+app =Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello My name is Bhargav"
+if __name__ == "__main__":
+    app.run()
