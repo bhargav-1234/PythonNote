@@ -212,6 +212,7 @@ def prime_no(n):
 num=int(input('Enter a number: '))
 print(prime_no(num))
 
+#2.
 def prime_no(n):
     Flag = False
     if n < 2:
