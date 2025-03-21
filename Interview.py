@@ -331,3 +331,10 @@ s='123'
 print(type(s))
 # print(str(x)+s)
 print(x+int(s)) 
+
+# what is python decorator
+   # function decorator
+def welcome(fx):
+    def mfx(*t,**d):
+        print("before hello function")
+        fx(*t,**d)
